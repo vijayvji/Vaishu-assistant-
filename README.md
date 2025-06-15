@@ -83,6 +83,6 @@ This app uses:
 ---
 
 ## 🔚 Disclaimer
-This project is for **educational purposes only**. Use responsibly.
+This project is for **educational purposes only**. Use responsibly..
 
 ---
