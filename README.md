@@ -86,5 +86,3 @@ This app uses:
 This project is for **educational purposes only**. Use responsibly.
 
 ---
-
-Ready to continue with file #1: `AndroidManifest.xml`?
