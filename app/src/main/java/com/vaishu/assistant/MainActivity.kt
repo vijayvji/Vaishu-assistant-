@@ -11,6 +11,9 @@ class MainActivity : AppCompatActivity() {
         // Start the voice command service
         val serviceIntent = Intent(this, VoiceCommandService::class.java)
         startForegroundService(serviceIntent)
+        val intent = Intent(this, AppLockService::class.java)
+startService(intent)
+
 
         // Optional: Simple UI
         finish() // No UI for now — exits immediately
