@@ -15,6 +15,11 @@
         android:label="Vaishu Assistant"
         android:icon="@mipmap/ic_launcher"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+<service android:name=".applock.AppLockService"
+         android:exported="false" />
+
+<activity android:name=".applock.PinEntryActivity"
+          android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" />
 
         <activity
             android:name=".MainActivity"
