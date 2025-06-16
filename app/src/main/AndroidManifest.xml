@@ -1,5 +1,6 @@
 <!-- app/src/main/AndroidManifest.xml -->
 <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" tools:ignore="ProtectedPermissions"/>
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vaishu.assistant">
 
